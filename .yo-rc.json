@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "nflPickEmSampleApp",
+    "packageName": "io.github.jhipster.application.nflpickem",
+    "packageFolder": "io/github/jhipster/application/nflpickem",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "ZTEwMDY0ZGI4ZWEwYjVmODhhOGM1YzE0OTYzYWQ1NDMwMmMzZjI3ZDAyMjU3ZjAwZjNkMmU2Y2I3NzY0YzgwOTVjZDFlMzY0YjQ4M2FhNWNmZDg0NTA1ZGFjOGU0NzRkNjFmNmNiYmU3N2RmNmNkZjI5ZTQwNjEwNmZmYTI3NTg=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "joshknopp",
+  "repository-name": "nfl-pick-em-sample-monolith"
+}
